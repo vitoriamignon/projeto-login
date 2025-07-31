@@ -32,9 +32,13 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    
     display: block;
     background: #DBC07B url(../imagens/pexels-karolina-grabowska-5980738.jpg) no-repeat;
     background-size: cover;
