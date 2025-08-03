@@ -33,7 +33,7 @@
     
     section#login > div#imagem {
         background-position: center;
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -42,4 +42,13 @@
         text-align: left;
         width: 80%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+    font-size: 1.2em;
+
+}
 }
